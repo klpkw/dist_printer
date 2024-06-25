@@ -63,7 +63,7 @@ class ObjectDistanceNode(Node):
         yaw = self.get_yaw_from_quaternion(car_orientation)
 
         # Get the size of the robot (assuming width is x and height is y)
-        robot_size = Vector3(x=1.0, y=0.5)  # Example size of the robot
+        robot_size = Vector3(x=8.4, y=2.5)  # Example size of the robot
 
         # Calculate the distance to the edge of the robot from its center
         distance_to_robot_edge_x = robot_size.x / 2
